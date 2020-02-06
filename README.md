@@ -1,6 +1,10 @@
 ## Directed Multigraph
 
 Implementation of **dynamic** directed multigraph in **C** that monitors the money transfers between the users and helps in detecting multi-triangular transactions as well as user group setups.<br>
+
+Example of a directed multigraph:
+![graph](https://github.com/errikosg/Directed_Multigraph/blob/master/img/graph.png)<br>
+
 After the graph initialization, the user **interacts** with the program and can choose one of the following commands:
 1. **i(nsert) Ni**: insert new node Ni
 2. **(i)n(sert) Ni Nj weight**: insert new edge between Ni, Nj with given weight. Nodes can be new to the graph.
